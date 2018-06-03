@@ -1,0 +1,12 @@
+--Deploy and image
+kubectl.exe run hw --image=karthequian/helloworld --port=80
+
+--Get the deployments done
+kubectl.exe get deployments
+
+
+--Get the pods
+kubectl get pods
+
+--Exposing the service
+kubectl expose deployment hw --type=NodePort

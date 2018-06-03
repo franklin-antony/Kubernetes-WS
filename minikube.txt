@@ -1,0 +1,4 @@
+minikube.exe start --vm-driver="hyperv" --hyperv-virtual-switch="Minikube-VirtualNetwork" --v=9 --alsologtostderr
+
+
+https://www.confluent.io/blog/data-dichotomy-rethinking-the-way-we-treat-data-and-services/

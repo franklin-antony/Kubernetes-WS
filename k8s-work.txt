@@ -10,3 +10,7 @@ kubectl get pods
 
 --Exposing the service
 kubectl expose deployment hw --type=NodePort
+
+
+--Running of JOBS
+kubectl run -i oneshot --image=gcr.io/kuar-demo/kuard-amd64:1 --restart=OnFailure -- --keygen-enable --keygen-exit-on-complete --keygen-num-to-gen 10
